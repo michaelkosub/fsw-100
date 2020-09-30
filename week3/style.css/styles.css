@@ -1,0 +1,25 @@
+.font{
+    color: darkgreen;
+    font-family: georgia;
+    text-align: center;
+}
+.font>h3{
+    color:black;
+}
+
+.img{
+    float:left;
+    width: 175px; 
+    padding-right:50px;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#main{
+    text-transform: uppercase;
+}
