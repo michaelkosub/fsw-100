@@ -1,0 +1,23 @@
+.font{
+    color:darkgreen;
+    font-family: georgia;
+    text-align: center;
+
+}
+h3{
+    color:black
+}
+
+
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+#main{
+    text-transform: uppercase;
+}
