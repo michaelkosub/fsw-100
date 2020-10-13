@@ -4,9 +4,7 @@ nav{
     height:50px
     list-style-type: none;
     width:700px;
-    float: :right;
+    float: horizontal;
     text-decoration: none;
-}
-ol, ul{
-    list-style: none ;
+
 }
