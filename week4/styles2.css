@@ -1,12 +1,32 @@
-nav{
-    position: fixed;
-    background-color: rgb(22, 15, 15);
-    height:50px
-    list-style-type: none;
-    width:700px;
-    float: :right;
-    text-decoration: none;
+ol,ul{
+    list-style: none;
 }
-ol, ul{
-    list-style: none ;
+#main{
+    margin: 10px;
+    width: 600px;
+    font-family: sans-serif;
+    position: fixed;
+}
+#main li{
+    display:block;
+    float: left;
+    margin-left: 1px;
+    width: 175px;
+    border:5px solid green;
+    margin-bottom: 80px;
+}
+#main a{
+    text-decoration: none;
+    padding: 4px;
+    color:black;
+}
+h1{
+    text-align: center;
+}
+#main a:hover{
+    background: rgb(99, 151, 230);
+    color: red
+}
+#family{
+    margin-top: 40px;
 }
