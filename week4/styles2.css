@@ -5,7 +5,16 @@ ol,ul{
     margin: 10px;
     width: 600px;
     font-family: sans-serif;
+
+}
+body{
+    background-color: gray;
+}
+nav{
     position: fixed;
+    background-color: rgb(206, 133, 37);
+    padding: 1px;
+
 }
 #main li{
     display:block;
@@ -18,7 +27,7 @@ ol,ul{
 #main a{
     text-decoration: none;
     padding: 4px;
-    color:black;
+    color:white;
 }
 h1{
     text-align: center;
@@ -27,6 +36,8 @@ h1{
     background: rgb(99, 151, 230);
     color: red
 }
-#family{
-    margin-top: 40px;
+
+#land{
+    padding-top: 130;
 }
+        
