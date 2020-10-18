@@ -18,11 +18,11 @@ main{
 }
 #main :hover{
     background: rgb(173, 75, 83);
-    color: rgb(52, 22, 223);
+    color: rgb(250, 250, 250);
 }
 table, th, td{
     border: 3px solid rgb(10, 12, 10);
-    margin-top: 7px;
+    margin-top: 5px;
 
 }
 td{
