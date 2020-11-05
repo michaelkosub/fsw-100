@@ -1,0 +1,61 @@
+#main{
+    border: 1px solid rgb(190, 190, 190);
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    background-color: rgb(241, 175, 175);
+    text-align: center;
+}
+#main, a {
+    color: rgb(11, 12, 11);
+    list-style-type: none ;
+    text-decoration: none;
+}
+#main, a:hover{
+    color: rgb(238, 20, 20);
+}
+h1{
+    text-align: center;
+}
+#address{
+    text-align: center;
+    color: rgb(4, 85, 4);
+    border: 2px solid black;
+    background-color: rgb(207, 207, 207);
+
+}
+#img1{
+    text-align: center;
+    margin-left: 50px;
+}
+#img2{
+    float: right;
+}
+#img{
+     margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    
+}
+.item1{
+    height: 500px;
+    grid-column: 2/3;
+}
+footer{
+    text-align: center;
+    color: rgb(4, 85, 4);
+}
+hr{
+    border: 2px solid black;
+}
+body{
+    font-family: 'Anton', sans-serif;
+}
+@media only screen and (max-width:768px){
+    p{
+        color:rgb(4, 85, 4);
+    }
+}
+
+
